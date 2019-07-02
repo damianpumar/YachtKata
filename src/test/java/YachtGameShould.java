@@ -1,11 +1,13 @@
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.Mock;
+import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+@RunWith(MockitoJUnitRunner.class)
 public class YachtGameShould {
 
     private YachtGame yachtGame;
@@ -15,8 +17,6 @@ public class YachtGameShould {
 
     @Before
     public void Initialize() {
-        this.diceCombination = mock(DiceCombination.class);
-
         yachtGame = new YachtGame(this.diceCombination);
     }
 
@@ -39,5 +39,54 @@ public class YachtGameShould {
         when(this.diceCombination.generate()).thenReturn(new int[]{2, 2, 2, 5, 6});
 
         assertThat(yachtGame.play("Twos")).isEqualTo(6);
+    }
+
+    @Test
+    public void scores_12_When_Category_Threes_With_Dice_Combination_33334() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{3, 3, 3, 3, 4});
+
+        assertThat(yachtGame.play("Threes")).isEqualTo(12);
+    }
+
+    @Test
+    public void scores_8_When_Category_Fours_With_Dice_Combination_44555() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{4, 4, 5, 5, 5});
+
+        assertThat(yachtGame.play("Fours")).isEqualTo(8);
+    }
+
+    @Test
+    public void scores_0_When_Category_Fives_With_Dice_Combination_11123() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{1, 1, 1, 2, 3});
+
+        assertThat(yachtGame.play("Fives")).isEqualTo(0);
+    }
+
+    @Test
+    public void scores_18_When_Category_Sixes_With_Dice_Combination_22666() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{2, 2, 6, 6, 6});
+
+        assertThat(yachtGame.play("Sixes")).isEqualTo(18);
+    }
+
+    @Test
+    public void scores_19_When_Category_FullHouse_With_Dice_Combination_22555() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{2, 2, 5, 5, 5});
+
+        assertThat(yachtGame.play("Full House")).isEqualTo(19);
+    }
+
+    @Test
+    public void scores_19_When_Category_FullHouse_With_Dice_Combination_11555() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{1, 1, 5, 5, 5});
+
+        assertThat(yachtGame.play("Full House")).isEqualTo(17);
+    }
+
+    @Test
+    public void scores_0_When_Category_FullHouse_With_Dice_Combination_22554() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{2, 2, 5, 5, 4});
+
+        assertThat(yachtGame.play("Full House")).isEqualTo(0);
     }
 }

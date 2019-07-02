@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="YachtGameShould" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-07-02T08:31:04" hostname="Damians-MacBook-Pro.local" time="0.364">
+<testsuite name="YachtGameShould" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-02T13:26:15" hostname="Damians-MacBook-Pro.local" time="0.359">
   <properties/>
-  <testcase name="scores_3_When_Category_Ones_With_Dice_Combination_11114" classname="YachtGameShould" time="0.36"/>
-  <testcase name="scores_3_When_Category_Ones_With_Dice_Combination_11134" classname="YachtGameShould" time="0.001"/>
-  <testcase name="scores_6_When_Category_Twos_With_Dice_Combination_22256" classname="YachtGameShould" time="0.002"/>
+  <testcase name="scores_19_When_Category_FullHouse_With_Dice_Combination_11555" classname="YachtGameShould" time="0.359"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
