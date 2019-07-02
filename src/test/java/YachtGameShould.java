@@ -117,4 +117,18 @@ public class YachtGameShould {
 
         assertThat(yachtGame.play("Choice")).isEqualTo(13);
     }
+
+    @Test
+    public void scores_50_When_Category_Yacht_With_Dice_Combination_11111() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{1, 1, 1, 1, 1});
+
+        assertThat(yachtGame.play("Yacht")).isEqualTo(50);
+    }
+
+    @Test
+    public void scores_0_When_Category_Yacht_With_Dice_Combination_11112() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{1, 1, 1, 1, 2});
+
+        assertThat(yachtGame.play("Yacht")).isEqualTo(0);
+    }
 }

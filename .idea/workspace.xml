@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e499c2b8-ffd4-4dcc-8930-bb19b8e92c3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BigStraightCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChoiceCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/YachtCategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/YachtGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/YachtGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/YachtGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/YachtGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/YachtGameShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/YachtGameShould.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/YachtGameShould.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/YachtGameShould.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-YachtGameShould.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-YachtGameShould.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FullHouseCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FullHouseCategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/YachtGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/YachtGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/YachtGameShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YachtGameShould.java" afterDir="false" />
     </list>
@@ -62,23 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/YachtGameShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="117" column="31" lean-forward="true" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/YachtGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="551">
+              <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,11 +81,12 @@
         <option value="$PROJECT_DIR$/src/main/java/FourOfAKindCategory.java" />
         <option value="$PROJECT_DIR$/src/main/java/LittleStraightCategory.java" />
         <option value="$PROJECT_DIR$/src/main/java/BigStraightCategory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/YachtGameShould.java" />
-        <option value="$PROJECT_DIR$/src/main/java/YachtGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/FullHouseCategory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/ChoiceCategory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/YachtGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/YachtCategory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/YachtGameShould.java" />
       </list>
     </option>
   </component>
@@ -246,26 +214,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="YachtGameShould.scores_20_When_Category_Four_Of_A_Kind_With_Dice_Combination_25555" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;YachtGameShould.scores_20_When_Category_Four_Of_A_Kind_With_Dice_Combination_25555&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="YachtGameShould.scores_30_When_Category_BigStraight_With_Dice_Combination_23456" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -306,13 +254,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="YachtGameShould.scores_50_When_Category_Yacht_With_Dice_Combination_11111" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;YachtGameShould.scores_50_When_Category_Yacht_With_Dice_Combination_11111&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.YachtGameShould" />
+        <item itemvalue="Gradle.YachtGameShould.scores_50_When_Category_Yacht_With_Dice_Combination_11111" />
         <item itemvalue="Gradle.YachtGameShould.scores_13_When_Category_Choice_With_Dice_Combination_11335" />
         <item itemvalue="Gradle.YachtGameShould.scores_30_When_Category_BigStraight_With_Dice_Combination_23456" />
         <item itemvalue="Gradle.YachtGameShould.scores_30_When_Category_LittleStraight_With_Dice_Combination_12345" />
-        <item itemvalue="Gradle.YachtGameShould.scores_20_When_Category_Four_Of_A_Kind_With_Dice_Combination_25555" />
       </list>
     </recent_temporary>
   </component>
@@ -320,21 +288,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="YachtGameShould_scores_0_When_Category_FullHouse_With_Dice_Combination_22554 - 2019.07.02 at 13h 13m 46s.xml">
-      <configuration name="YachtGameShould.scores_0_When_Category_FullHouse_With_Dice_Combination_22554" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="YachtGameShould_scores_19_When_Category_FullHouse_With_Dice_Combination_11555 - 2019.07.02 at 15h 26m 11s.xml">
-      <configuration name="YachtGameShould.scores_19_When_Category_FullHouse_With_Dice_Combination_11555" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="YachtGameShould_scores_19_When_Category_FullHouse_With_Dice_Combination_11555 - 2019.07.02 at 15h 26m 16s.xml">
-      <configuration name="YachtGameShould.scores_19_When_Category_FullHouse_With_Dice_Combination_11555" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="YachtGameShould_scores_20_When_Category_FourOfKind_With_Dice_Combination_25555 - 2019.07.02 at 15h 28m 28s.xml">
-      <configuration name="YachtGameShould.scores_20_When_Category_FourOfKind_With_Dice_Combination_25555" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="YachtGameShould_scores_20_When_Category_Four_Of_A_Kind_With_Dice_Combination_25555 - 2019.07.02 at 15h 30m 23s.xml">
-      <configuration name="YachtGameShould.scores_20_When_Category_Four_Of_A_Kind_With_Dice_Combination_25555" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="YachtGameShould_scores_20_When_Category_Four_Of_A_Kind_With_Dice_Combination_25555 - 2019.07.02 at 15h 30m 37s.xml">
       <configuration name="YachtGameShould.scores_20_When_Category_Four_Of_A_Kind_With_Dice_Combination_25555" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -349,6 +302,21 @@
     </history-entry>
     <history-entry file="YachtGameShould_scores_13_When_Category_Choice_With_Dice_Combination_11335 - 2019.07.02 at 15h 42m 29s.xml">
       <configuration name="YachtGameShould.scores_13_When_Category_Choice_With_Dice_Combination_11335" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="YachtGameShould_scores_13_When_Category_Choice_With_Dice_Combination_11335 - 2019.07.02 at 15h 45m 10s.xml">
+      <configuration name="YachtGameShould.scores_13_When_Category_Choice_With_Dice_Combination_11335" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="YachtGameShould - 2019.07.02 at 15h 45m 14s.xml">
+      <configuration name="YachtGameShould" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="YachtGameShould_scores_50_When_Category_Yacht_With_Dice_Combination_11111 - 2019.07.02 at 15h 50m 40s.xml">
+      <configuration name="YachtGameShould.scores_50_When_Category_Yacht_With_Dice_Combination_11111" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="YachtGameShould_scores_50_When_Category_Yacht_With_Dice_Combination_11111 - 2019.07.02 at 15h 52m 13s.xml">
+      <configuration name="YachtGameShould.scores_50_When_Category_Yacht_With_Dice_Combination_11111" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="YachtGameShould - 2019.07.02 at 15h 52m 27s.xml">
+      <configuration name="YachtGameShould" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -434,16 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YachtGameShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="117" column="31" lean-forward="true" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BigStraightCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -504,10 +462,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/YachtCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/YachtGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="283">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/YachtGameShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

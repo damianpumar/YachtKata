@@ -21,6 +21,7 @@ public class YachtGame {
                 put("Little Straight", new LittleStraightCategory());
                 put("Big Straight", new BigStraightCategory());
                 put("Choice", new ChoiceCategory());
+                put("Yacht", new YachtCategory());
             }
         };
     }
