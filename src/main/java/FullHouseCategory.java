@@ -25,13 +25,4 @@ public class FullHouseCategory extends Category {
 
         return 0;
     }
-
-    private int sumAllElements(int[] diceNumbers) {
-        int score = 0;
-
-        for (int dieNumber : diceNumbers)
-            score += dieNumber;
-
-        return score;
-    }
 }

@@ -103,4 +103,18 @@ public class YachtGameShould {
 
         assertThat(yachtGame.play("Little Straight")).isEqualTo(30);
     }
+
+    @Test
+    public void scores_30_When_Category_BigStraight_With_Dice_Combination_23456() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{2, 3, 4, 5, 6});
+
+        assertThat(yachtGame.play("Big Straight")).isEqualTo(30);
+    }
+
+    @Test
+    public void scores_13_When_Category_Choice_With_Dice_Combination_11335() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{1, 1, 3, 3, 5});
+
+        assertThat(yachtGame.play("Choice")).isEqualTo(13);
+    }
 }

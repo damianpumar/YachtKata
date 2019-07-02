@@ -19,6 +19,8 @@ public class YachtGame {
                 put("Full House", new FullHouseCategory());
                 put("Four-Of-A-Kind", new FourOfAKindCategory());
                 put("Little Straight", new LittleStraightCategory());
+                put("Big Straight", new BigStraightCategory());
+                put("Choice", new ChoiceCategory());
             }
         };
     }
