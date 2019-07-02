@@ -89,4 +89,11 @@ public class YachtGameShould {
 
         assertThat(yachtGame.play("Full House")).isEqualTo(0);
     }
+
+    @Test
+    public void scores_20_When_Category_Four_Of_A_Kind_With_Dice_Combination_25555() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{2, 5, 5, 5, 5});
+
+        assertThat(yachtGame.play("Four-Of-A-Kind")).isEqualTo(20);
+    }
 }
