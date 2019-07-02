@@ -96,4 +96,11 @@ public class YachtGameShould {
 
         assertThat(yachtGame.play("Four-Of-A-Kind")).isEqualTo(20);
     }
+
+    @Test
+    public void scores_30_When_Category_LittleStraight_With_Dice_Combination_12345() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{1, 2, 3, 4, 5});
+
+        assertThat(yachtGame.play("Little Straight")).isEqualTo(30);
+    }
 }
