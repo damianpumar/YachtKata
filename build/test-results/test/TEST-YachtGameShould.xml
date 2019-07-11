@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="YachtGameShould" tests="16" skipped="0" failures="0" errors="0" timestamp="2019-07-02T13:52:27" hostname="Damians-MacBook-Pro.local" time="0.394">
+<testsuite name="YachtGameShould" tests="16" skipped="0" failures="0" errors="0" timestamp="2019-07-02T14:10:23" hostname="Damians-MacBook-Pro.local" time="0.39">
   <properties/>
-  <testcase name="scores_30_When_Category_BigStraight_With_Dice_Combination_23456" classname="YachtGameShould" time="0.369"/>
+  <testcase name="scores_30_When_Category_BigStraight_With_Dice_Combination_23456" classname="YachtGameShould" time="0.361"/>
   <testcase name="scores_0_When_Category_Yacht_With_Dice_Combination_11112" classname="YachtGameShould" time="0.002"/>
-  <testcase name="scores_12_When_Category_Threes_With_Dice_Combination_33334" classname="YachtGameShould" time="0.001"/>
+  <testcase name="scores_12_When_Category_Threes_With_Dice_Combination_33334" classname="YachtGameShould" time="0.002"/>
   <testcase name="scores_0_When_Category_FullHouse_With_Dice_Combination_22554" classname="YachtGameShould" time="0.002"/>
   <testcase name="scores_19_When_Category_FullHouse_With_Dice_Combination_11555" classname="YachtGameShould" time="0.001"/>
   <testcase name="scores_19_When_Category_FullHouse_With_Dice_Combination_22555" classname="YachtGameShould" time="0.001"/>
   <testcase name="scores_30_When_Category_LittleStraight_With_Dice_Combination_12345" classname="YachtGameShould" time="0.001"/>
-  <testcase name="scores_0_When_Category_Fives_With_Dice_Combination_11123" classname="YachtGameShould" time="0.001"/>
-  <testcase name="scores_13_When_Category_Choice_With_Dice_Combination_11335" classname="YachtGameShould" time="0.002"/>
+  <testcase name="scores_0_When_Category_Fives_With_Dice_Combination_11123" classname="YachtGameShould" time="0.004"/>
+  <testcase name="scores_13_When_Category_Choice_With_Dice_Combination_11335" classname="YachtGameShould" time="0.001"/>
   <testcase name="scores_8_When_Category_Fours_With_Dice_Combination_44555" classname="YachtGameShould" time="0.001"/>
   <testcase name="scores_50_When_Category_Yacht_With_Dice_Combination_11111" classname="YachtGameShould" time="0.001"/>
   <testcase name="scores_18_When_Category_Sixes_With_Dice_Combination_22666" classname="YachtGameShould" time="0.001"/>

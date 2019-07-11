@@ -8,7 +8,6 @@ public class LittleStraightCategory extends Category {
                 diceNumbers[4] == 5)
             return 30;
 
-
         return 0;
     }
 }

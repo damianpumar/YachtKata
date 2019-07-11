@@ -1,27 +1,17 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.Supplier;
 
 public class YachtGame {
     private final DiceCombination diceCombination;
-    private final Map<String, Category> categories;
+    private final Map<String, Supplier<Category>> categories;
 
     public YachtGame(DiceCombination diceCombination) {
         this.diceCombination = diceCombination;
 
-        this.categories = new HashMap<String, Category>() {
+        this.categories = new HashMap<String, Supplier<Category>>() {
             {
-                put("Ones", new SimpleCategory(1));
-                put("Twos", new SimpleCategory(2));
-                put("Threes", new SimpleCategory(3));
-                put("Fours", new SimpleCategory(4));
-                put("Fives", new SimpleCategory(5));
-                put("Sixes", new SimpleCategory(6));
-                put("Full House", new FullHouseCategory());
-                put("Four-Of-A-Kind", new FourOfAKindCategory());
-                put("Little Straight", new LittleStraightCategory());
-                put("Big Straight", new BigStraightCategory());
-                put("Choice", new ChoiceCategory());
-                put("Yacht", new YachtCategory());
+                put("Ones", () -> new SimpleCategory(1));
             }
         };
     }
@@ -29,7 +19,7 @@ public class YachtGame {
     public int play(String category) {
         int[] randomCombination = this.diceCombination.generate();
 
-        Category concreteCategory = this.categories.get(category);
+        Category concreteCategory = this.categories.get(category).get();
 
         return concreteCategory.calculate(randomCombination);
     }
