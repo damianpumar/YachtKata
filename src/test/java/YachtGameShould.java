@@ -105,6 +105,13 @@ public class YachtGameShould {
     }
 
     @Test
+    public void scores_0_When_Category_LittleStraight_With_Dice_Combination_Is_Different_12345() {
+        when(this.diceCombination.generate()).thenReturn(new int[]{2, 2, 3, 4, 5});
+
+        assertThat(yachtGame.play("Little Straight")).isEqualTo(0);
+    }
+
+    @Test
     public void scores_30_When_Category_BigStraight_With_Dice_Combination_23456() {
         when(this.diceCombination.generate()).thenReturn(new int[]{2, 3, 4, 5, 6});
 

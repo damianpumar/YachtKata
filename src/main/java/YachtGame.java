@@ -12,6 +12,17 @@ public class YachtGame {
         this.categories = new HashMap<String, Supplier<Category>>() {
             {
                 put("Ones", () -> new SimpleCategory(1));
+                put("Twos", () -> new SimpleCategory(2));
+                put("Threes", () -> new SimpleCategory(3));
+                put("Fours", () -> new SimpleCategory(4));
+                put("Fives", () -> new SimpleCategory(5));
+                put("Sixes", () -> new SimpleCategory(6));
+                put("Full House", () -> new FullHouseCategory());
+                put("Four-Of-A-Kind", () -> new FourOfAKindCategory());
+                put("Little Straight", () -> new LittleStraightCategory());
+                put("Big Straight", () -> new BigStraightCategory());
+                put("Choice", () -> new ChoiceCategory());
+                put("Yacht", () -> new YachtCategory());
             }
         };
     }
